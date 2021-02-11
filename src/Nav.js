@@ -25,6 +25,7 @@ function Nav() {
           src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
           alt=""
         />
+
         {/*this will be the avatar*/}
         <img
           src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png"

@@ -10,6 +10,38 @@
   padding: 20px;
 }
 
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
 .row__poster {
   max-height: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 450ms;
+  border-radius: 5px;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.row__posterLarge {
+  max-height: 250px;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.09);
+  opacity: 1;
+}
+
+.row__movieTitle {
+  /* background-color: rgba(0, 100, 5, 0.71); */
+  text-align: center;
+  font-weight: 350;
+  font-size: 13px;
+  /* padding-left: 5px; */
+  margin-top: 10px;
+  object-fit: contain;
 }

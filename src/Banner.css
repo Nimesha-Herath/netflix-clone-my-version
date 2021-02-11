@@ -3,6 +3,7 @@
   position: relative;
   object-fit: contain;
   color: white;
+  /* overflow: hidden; */
 }
 
 .banner__contents {
